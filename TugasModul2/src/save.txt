@@ -1,0 +1,2 @@
+90.6 :Komponen-X
+55 :Komponen-Y
