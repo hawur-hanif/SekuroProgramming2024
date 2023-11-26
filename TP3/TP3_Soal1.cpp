@@ -24,7 +24,7 @@ public:
         float y0 = gradient()*-x1+y1;
         return y0;
     }
-    void operator +(float a){
+    void operator +(float a){//mohon maaf, perlu mengerjakan tugas prd 
         a ++;   
     }
     void printEquation(){
