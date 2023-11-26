@@ -1,2 +1,0 @@
-23.38 :Komponen-X
-22.74 :Komponen-Y
