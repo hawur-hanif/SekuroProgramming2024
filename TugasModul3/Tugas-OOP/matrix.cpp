@@ -8,20 +8,20 @@ class Matrix{
         float** start_mtr;
     public: 
         Matrix(vector<vector<float>>& content){
+            // ukuran matrix
             row = content.size();
             col = content[0].size();
-
+            // deklarasi 2d array
             float** mtr =new float* [row];
             for (int i=0; i<row; i++){
                 mtr[i] = new float[col];
             }
-
+            // input nilai setelah deklarasi
             for (int i=0; i<row; i++){
                 for (int j=0; j<col; j++){
                     mtr[i][j] = content[i][j];
                 }
             }
-
             start_mtr = mtr;            
         };
 
@@ -39,7 +39,6 @@ class Matrix{
                     mtr[i][j] = 0;
                 }
             }
-            // menyimpan pointer awal matriks ke public
             start_mtr = mtr;
         };
 
