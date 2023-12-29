@@ -1,0 +1,8 @@
+dikarenakan error yang belum dapat saya selesaikan (program graph.cpp tidak dapat dijalankan), saya menggunakan plot online (scatter plot) dari pbplots repo untuk menggambar grafik.
+error tersebut diantaranya:
+undefined reference to `CreateStringReferenceLengthValue(double, wchar_t)'
+undefined reference to `CreateRGBABitmapImageReference()'
+undefined reference to `DrawScatterPlot(RGBABitmapImageReference*, double, double, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, StringReference*)'
+undefined reference to `ConvertToPNG(RGBABitmapImage*)'
+undefined reference to `WriteToFile(std::vector<double, std::allocator<double> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+undefined reference to `DeleteImage(RGBABitmapImage*)'
