@@ -1,0 +1,2 @@
+ros_service_cpp:ros_service_python:ros_topic_cpp:ros_topic_python
+-DCATKIN_DEVEL_PREFIX=/home/hawur/SekuroProgramming2024/TugasModul4/devel -DCMAKE_INSTALL_PREFIX=/home/hawur/SekuroProgramming2024/TugasModul4/install -G Unix Makefiles
